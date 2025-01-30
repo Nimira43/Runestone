@@ -9,3 +9,14 @@ const client = new MongoClient(uri, {
   },
 })
 
+try {
+  await client.connect()
+  await client.db('admin').command({ ping: 1})
+  console.log('Database connection successful')
+} catch (error) {
+  console.log(error)
+}
+
+let db = client.db('employees')
+
+export default db
