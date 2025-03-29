@@ -2,6 +2,7 @@ import express from 'express'
 import http from 'http'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import authRoutes from './src/routes/authRoutes.js'
 
 dotenv.config()
 
@@ -14,6 +15,8 @@ app.use(cors())
 app.get('/', (req, res) => {
   return res.send('Alesia TV')
 })
+
+app.use('api/auth', authRoutes)
 
 const server = http.createServer(app)
 server.listen(PORT, () => {
