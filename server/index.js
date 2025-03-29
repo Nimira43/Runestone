@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   return res.send('Alesia TV')
 })
 
-app.use('api/auth', authRoutes)
+app.use('/api/auth', authRoutes)
 
 const server = http.createServer(app)
 server.listen(PORT, () => {
