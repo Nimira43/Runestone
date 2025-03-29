@@ -11,6 +11,10 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+app.get('/', (req, res) => {
+  return res.send('Alesia TV')
+})
+
 const server = http.createServer(app)
 server.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`)
