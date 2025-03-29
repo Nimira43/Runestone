@@ -11,3 +11,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+const server = http.createServer(app)
+server.listen(PORT, () => {
+  console.log(`Server is listening on ${PORT}`)
+})
