@@ -49,3 +49,14 @@ body {
   margin: 4rem;
   color: var(--light);
 }
+
+.left-content i {
+  font-size: 3rem;
+  margin-right: 2rem;
+  color: var(--primary)
+}
+
+.left-content-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
