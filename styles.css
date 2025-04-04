@@ -87,6 +87,11 @@ body {
   border: 0.1rem solid var(--grey-light);
   border-radius: 0.3rem;
   background-color: var(--grey-light-extra);
+  transition: all 0.3s ease-in-out;
+}
+
+.right-content-form input:focus {
+  border-color: var(--grey-dark);
 }
 
 .middle-content {
