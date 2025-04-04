@@ -210,6 +210,13 @@ body {
   grid-row-gap: 1.5rem;
 }
 
+.login-page-nav {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background-color: var(--light);
+  padding: 2.5rem 0;
+}
+
 
 @media (max-width: 1300px) {
   .middle-content {
