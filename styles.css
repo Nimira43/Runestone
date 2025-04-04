@@ -108,6 +108,17 @@ body {
   color: var(--primary);
 }
 
+.btn-top {
+  width: 8rem;
+  background-color: var(--grey-dark);
+  color: var(--light);
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 .middle-content {
   position: absolute;
   top: 50%;
