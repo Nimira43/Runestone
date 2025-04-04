@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Uncial+Antiqua&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 300;
+}
+
+html {
+  font-size: 62.5%;
+}
