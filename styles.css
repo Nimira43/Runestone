@@ -217,6 +217,12 @@ body {
   padding: 2.5rem 0;
 }
 
+.login {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: var(--light);
+  width: 100rem;
+}
 
 @media (max-width: 1300px) {
   .middle-content {
