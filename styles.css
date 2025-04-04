@@ -60,3 +60,9 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+.right {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  position: relative;
+}
