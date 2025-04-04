@@ -37,8 +37,15 @@ body {
 .left {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-color: var(--grey-medium);
+  background-color: var(--grey-dark);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.left-content div {
+  display: flex;
+  align-items: center;
+  margin: 4rem;
+  color: var(--light);
 }
