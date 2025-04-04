@@ -187,4 +187,20 @@ body {
   list-style: none;
 }
 
+.main-page-footer a {
+  font-size: 1.2rem;
+  margin: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--light);
+  font-weight: 200;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-page-footer a:hover {
+  color: var(--primary)
+}
+
+
+
 
