@@ -178,5 +178,13 @@ body {
   grid-row: 2 / -1;
   background-color: var(--grey-dark);
   padding: 1.5rem;
-  border-top: 0.1rem solid var(--dark);
+  border-top: 0.1rem dotted var(--dark);
 }
+
+.main-page-footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+
