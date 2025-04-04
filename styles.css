@@ -94,6 +94,20 @@ body {
   border-color: var(--grey-dark);
 }
 
+.right-content-form label {
+  position: absolute;
+  top: 5.5rem;
+  left: 0;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: var(--grey-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.right-content-form label:hover {
+  color: var(--primary);
+}
+
 .middle-content {
   position: absolute;
   top: 50%;
