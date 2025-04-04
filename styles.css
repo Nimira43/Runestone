@@ -215,6 +215,15 @@ body {
   grid-row: 1 / 2;
   background-color: var(--light);
   padding: 2.5rem 0;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+}
+
+.login-page-nav ul {
+  width: 100rem;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
 }
 
 .login {
