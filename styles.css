@@ -242,3 +242,21 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .right {
+    width: 80%;
+  }
+  .middle-content i {
+    display: none;
+  }
+  .middle-content h1 {
+    margin-bottom: 2rem;
+  }
+  .middle-content h4 {
+    margin-bottom: 1rem;
+  }
+  .left-content {
+    width: 60%;
+  }
+}
+
