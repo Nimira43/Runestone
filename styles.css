@@ -260,3 +260,15 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .main-page {
+    grid-template-rows: 1fr min-content;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    grid-row: 1 / 2;
+  }
+}
+
