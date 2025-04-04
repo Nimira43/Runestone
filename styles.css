@@ -201,6 +201,16 @@ body {
   color: var(--primary)
 }
 
-
+@media (max-width: 1300px) {
+  .middle-content {
+    width: 60%;
+  }
+  .main-page-footer ul {
+    flex-wrap: wrap;
+  }
+  .main-page-footer li {
+    margin-bottom: 1rem;
+  }
+}
 
 
