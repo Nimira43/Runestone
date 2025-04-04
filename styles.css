@@ -251,6 +251,23 @@ body {
   opacity: 1;
 }
 
+.login-page-nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--grey-dark);
+  transition: color 0.3s;
+}
+
+.login-page-nav li:hover a {
+  color: var(--primary);
+}
+
+.login-page-nav i {
+  color: var(--primary);
+  font-size: 2rem;
+}
+
 .login {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
