@@ -332,6 +332,17 @@ body {
   background-color: var(--primary);
 }
 
+.login-form label {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.login-form a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--grey-dark);
+}
+
 .login-footer {
   grid-column: 1 / -1;
   grid-row: 2 / -1;
