@@ -299,8 +299,9 @@ body {
   width: 30rem;
   height: 3.5rem;
   margin-bottom: 1rem;
+  background-color: var(--grey-light-extra);
   border: 0.1rem solid var(--grey-light);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   padding-left: 1rem;
   font-size: 1.5rem;
   transition: all 0.3s ease-in-out;
