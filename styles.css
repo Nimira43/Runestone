@@ -290,6 +290,26 @@ body {
   margin-bottom: 3rem;
 }
 
+.login-form {
+  display: flex;
+  flex-direction:column;
+}
+
+.login-form input:not(.login-form-checkbox) {
+  width: 30rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid var(--grey-light);
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  border-color: var(--grey-dark);
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
