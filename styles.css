@@ -412,6 +412,21 @@ body {
   .main-page-footer {
     grid-row: 3 / 4;
   }
+  .login-page-nav ul {
+    width: 80rem;
+  }
+  .login {
+    width: 80rem
+  }
+}
+
+@media (max-width: 900px) {
+  .login-page-nav ul {
+    width: 60rem;
+  }
+  .login {
+    width: 60rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -432,6 +447,16 @@ body {
   }
 }
 
+@media (max-width: 700px) {
+  .login-page-nav ul {
+    width: 50rem;
+  }
+
+  .login {
+    width: 50rem;
+  }
+}
+
 @media (max-width: 600px) {
   .main-page {
     grid-template-rows: 1fr min-content;
@@ -441,11 +466,57 @@ body {
   }
   .right {
     grid-row: 1 / 2;
+    width: 90%;
   }
+  .login-page-nav ul {
+    width: 40rem;
+  }
+  .login {
+    width: 40rem;
+    grid-template-columns: 5rem 8fr;
+  }
+  .login-form label {
+    font-size: 1.4rem;
+  } 
+  .login-form a {
+    font-size: 1.4rem;
+  } 
+  .login-footer {
+    padding-left: 5rem
+  } 
+  .login-footer p {
+    font-size: 1.4rem;
+  } 
 }
 
 @media (max-width: 500px) {
   .middle-content h1 {
     font-size: 2.5rem;
+  }
+  .login-page-nav ul {
+    width: 30rem;
+  }
+  .login {
+    width: 30rem;
+    grid-template-columns: 2rem 8fr;
+  }
+  .login-form input:not(.login-form-checkbox) {
+    width: 20rem;
+  }
+  .login-form a {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  .login-footer {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-page {
+    grid-template-columns: 2rem 2fr 2rem;
+  }
+  .login {
+    width: 100%;
   }
 }
