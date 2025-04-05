@@ -341,13 +341,36 @@ body {
   text-decoration: none;
   font-size: 1.6rem;
   color: var(--grey-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form a:hover {
+  color: var(--primary)
 }
 
 .login-footer {
   grid-column: 1 / -1;
   grid-row: 2 / -1;
-  background-color: var(--grey-light-extra);
-  padding-left: 10rem;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.login-footer p {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+.login-footer a {
+  text-decoration: none;
+  color: var(--grey-dark);
+  transition: all 0.3s ease-in-out;
+}
+
+.login-footer a:hover {
+  color: var(--primary)
 }
 
 @media (max-width: 1300px) {
