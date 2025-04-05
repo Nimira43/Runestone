@@ -311,6 +311,13 @@ body {
   border-color: var(--grey-dark);
 }
 
+.login-footer {
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  background-color: var(--grey-light-extra);
+  padding-left: 10rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
