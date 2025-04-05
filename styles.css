@@ -279,6 +279,17 @@ body {
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
 
+.logic-content {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  padding: 5rem 0 1rem 0;
+}
+
+.login-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
