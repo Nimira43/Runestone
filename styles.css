@@ -509,6 +509,9 @@ body {
   .login {
     width: 80rem
   }
+  .search-bar {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
@@ -578,6 +581,10 @@ body {
   .login-footer p {
     font-size: 1.4rem;
   } 
+  .user a,
+  .user i {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -601,6 +608,9 @@ body {
   .login-footer {
     padding-left: 2rem;
   }
+  .icons a {
+    margin-right: 5rem;
+  }
 }
 
 @media (max-width: 400px) {
@@ -609,5 +619,14 @@ body {
   }
   .login {
     width: 100%;
+  }
+  .icons i {
+    font-size: 2rem;
+  }
+  .icons a {
+    margin-left: 4rem;
+  }
+  .user {
+    margin-left: 1rem;
   }
 }
