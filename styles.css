@@ -495,6 +495,13 @@ body {
   color: var(--primary);
 }
 
+.header-post {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 0.1rem solid var(--grey-light-extra);
+}
+
 .header-img-wrapper {
   width: 4rem;
   height: 4rem;
