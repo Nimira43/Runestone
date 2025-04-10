@@ -478,6 +478,14 @@ body {
   margin-top: 1.5rem;
 }
 
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid var(--grey-light-extra);
+  padding: 1.5rem;
+}
+
 .header-img-wrapper {
   width: 4rem;
   height: 4rem;
