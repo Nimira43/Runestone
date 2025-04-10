@@ -524,6 +524,12 @@ body {
   padding: 0.4rem 1.5rem;
 }
 
+.header-post i {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin: 1rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
