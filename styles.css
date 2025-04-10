@@ -515,6 +515,15 @@ body {
   border-radius: 50%;
 }
 
+.header-post input {
+  width: 35rem;
+  height: 3rem;
+  border: 0.1rem solid var(--grey-light);
+  border-radius: 3px;
+  background-color: var(--grey-light-extra);
+  padding: 0.4rem 1.5rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
