@@ -471,6 +471,13 @@ body {
   padding-top: 6.5rem;
 }
 
+.feeds-header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: var(--light);
+  margin-top: 1.5rem;
+}
+
 .header-img-wrapper {
   width: 4rem;
   height: 4rem;
