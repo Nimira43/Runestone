@@ -665,6 +665,10 @@ body {
   margin: 2rem 1rem;
 }
 
+.follow-footer {
+  background-color: var(--grey-light);
+}
+
 @media (max-width: 1600px) {
 
 }
