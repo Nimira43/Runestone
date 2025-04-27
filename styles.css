@@ -577,6 +577,11 @@ body {
   font-size: 1.6rem;
 }
 
+.post-text {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
 .post-img {
   width: 48rem;
   height: 30rem;
