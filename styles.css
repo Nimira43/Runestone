@@ -777,6 +777,15 @@ body {
   .icons a {
     margin-right: 5rem;
   }
+  .header-img-wrapper {
+    display: none;
+  }
+  .header-post {
+    justify-content: center;
+  }
+  .header-post input {
+    width: 20rem;
+  }
 }
 
 @media (max-width: 400px) {
