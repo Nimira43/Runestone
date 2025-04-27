@@ -616,6 +616,13 @@ body {
   border-bottom: 0.1rem solid var(--grey-medium);
 }
 
+.follow-user { 
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: var(--grey-medium);
+}
+
 @media (max-width: 1600px) {
 
 }
