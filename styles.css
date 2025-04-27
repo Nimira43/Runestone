@@ -661,6 +661,10 @@ body {
   color: var(--light);
 }
 
+.follow-link {
+  margin: 2rem 1rem;
+}
+
 @media (max-width: 1600px) {
 
 }
