@@ -567,6 +567,12 @@ body {
   margin-right: 0.5rem;
 }
 
+.post-user-info i {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-right: 0.5rem;
+}
+
 
 .post-img {
   width: 48rem;
