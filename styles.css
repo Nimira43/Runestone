@@ -812,4 +812,13 @@ body {
   .user {
     margin-left: 1rem;
   }
+  .header-post input {
+    width: 10rem;
+  }
+  .header-post i {
+    font-size: 2rem;
+  }
+  .post-icon i {
+    margin-right: 4rem;
+  }
 }
