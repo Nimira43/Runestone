@@ -598,6 +598,12 @@ body {
   margin-top: 1rem;
 }
 
+.post-icons i {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-right: 6rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
