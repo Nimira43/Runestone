@@ -556,6 +556,11 @@ body {
   border-radius: 50%;
 }
 
+.post-img {
+  width: 48rem;
+  height: 30rem;
+}
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
