@@ -530,7 +530,11 @@ body {
   margin: 1rem;
 }
 
-
+.posts {
+  grid-column: 2 / 3;
+  grid-row: 2 / -1;
+  background-color: var(--grey-light);
+}
 
 @media (max-width: 1300px) {
   .middle-content {
