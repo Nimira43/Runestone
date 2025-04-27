@@ -604,6 +604,11 @@ body {
   margin-right: 6rem;
 }
 
+@media (max-width: 1600px) {
+
+}
+
+
 @media (max-width: 1300px) {
   .middle-content {
     width: 60%;
@@ -648,6 +653,9 @@ body {
   }
   .login {
     width: 80rem
+  }
+  .feeds-content {
+    grid-template-columns: minmax(5rem, 1fr) 2fr minmax(5rem, 1fr)
   }
   .search-bar {
     display: none;
