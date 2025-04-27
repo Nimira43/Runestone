@@ -786,6 +786,14 @@ body {
   .header-post input {
     width: 20rem;
   }
+  .post {
+    padding: 1rem;
+  }
+  .user-avatar {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
 }
 
 @media (max-width: 400px) {
