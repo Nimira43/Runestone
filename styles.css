@@ -600,6 +600,7 @@ body {
   font-size: 1.8rem;
   color: var(--primary);
   margin-right: 6rem;
+  cursor: pointer;
 }
 
 .follow {
@@ -665,8 +666,38 @@ body {
   margin: 2rem 1rem;
 }
 
+.follow-link a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+  text-transform: uppercase; 
+  transition: all 0.5s ease-in-out;
+}
+
+.follow-link a:hover {
+  color: var(--dark);
+}
+
 .follow-footer {
   background-color: var(--grey-light);
+}
+
+.follow-footer ul {
+  list-style: none;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.follow-footer a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--dark);
+  margin: 0 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.follow-footer a:hover {
+  color: var(--primary);
 }
 
 @media (max-width: 1600px) {
