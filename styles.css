@@ -610,6 +610,12 @@ body {
   width: 35rem;
 }
 
+.follow-heading {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 0.1rem solid var(--grey-medium);
+}
+
 @media (max-width: 1600px) {
 
 }
