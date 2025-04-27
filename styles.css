@@ -636,6 +636,12 @@ body {
   border-radius: 50%;
 }
 
+.follow-user-info h4,
+.follow-user-info p {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 1600px) {
 
 }
