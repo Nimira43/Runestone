@@ -533,7 +533,17 @@ body {
 .posts {
   grid-column: 2 / 3;
   grid-row: 2 / -1;
-  background-color: var(--grey-light);
+  background-color: var(--grey-light-extra);
+}
+
+.post {
+  display: flex;
+  padding: 1.5rem;
+  border-bottom: 0.1rem solid var(--grey-medium);
+}
+
+.user-avatar {
+  
 }
 
 @media (max-width: 1300px) {
