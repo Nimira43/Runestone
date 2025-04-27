@@ -556,6 +556,12 @@ body {
   border-radius: 50%;
 }
 
+.post-user-info {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
 .post-img {
   width: 48rem;
   height: 30rem;
