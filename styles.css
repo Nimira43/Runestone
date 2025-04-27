@@ -543,8 +543,13 @@ body {
 }
 
 .user-avatar {
-  
+  width: 6rem;
+  height: 6rem;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
 }
+
+
 
 @media (max-width: 1300px) {
   .middle-content {
