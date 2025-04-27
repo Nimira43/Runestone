@@ -623,6 +623,12 @@ body {
   border-bottom: var(--grey-medium);
 }
 
+.follow-user-img {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem;
+}
+
 @media (max-width: 1600px) {
 
 }
