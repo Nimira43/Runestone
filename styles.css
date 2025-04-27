@@ -573,6 +573,9 @@ body {
   margin-right: 0.5rem;
 }
 
+.post-user-info span {
+  font-size: 1.6rem;
+}
 
 .post-img {
   width: 48rem;
