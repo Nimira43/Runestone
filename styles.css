@@ -713,6 +713,12 @@ body {
   border-radius: 3rem;
   cursor: pointer;
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.post-btn:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
 }
 
 @media (max-width: 1600px) {
