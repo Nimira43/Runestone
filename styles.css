@@ -722,7 +722,9 @@ body {
 }
 
 @media (max-width: 1600px) {
-
+  .follow {
+    left: 58.5%;
+  }
 }
 
 @media (max-width: 1300px) {
