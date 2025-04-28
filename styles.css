@@ -737,6 +737,9 @@ body {
   .main-page-footer li {
     margin-bottom: 1rem;
   }
+  .follow {
+    left: 60%
+  }
 }
 
 @media (max-width: 1100px) {
