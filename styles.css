@@ -884,6 +884,9 @@ body {
     width: 90%;
     height: 25rem;
   }
+  .post-btn {
+    left: 70%;
+  }
 }
 
 @media (max-width: 500px) {
