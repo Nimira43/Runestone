@@ -957,4 +957,7 @@ body {
   .post-icon i {
     margin-right: 4rem;
   }
+  .post-btn {
+    left: 60%;
+  }
 }
