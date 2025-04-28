@@ -45,3 +45,6 @@ btnTop.addEventListener('click', () => {
   } 
 })
 
+modalX.addEventListener('click', () => {
+  loginModal.style.display = 'none'
+})
