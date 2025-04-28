@@ -31,3 +31,8 @@ middleContent.addEventListener('click', e => {
     goToLoginPage()
   }
 })
+
+btnTop.addEventListener('click', () => {
+  const inputUserInfo = document.querySelector('.user-info')
+  const inputPassword = document.querySelector('.password')
+})
