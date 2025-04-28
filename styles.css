@@ -781,6 +781,12 @@ body {
   .search-bar {
     display: none;
   }
+  .follow {
+    display: none;
+  }
+  .post-btn {
+    left: 80%;
+  }
 }
 
 @media (max-width: 900px) {
