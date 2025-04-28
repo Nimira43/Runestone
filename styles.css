@@ -832,6 +832,12 @@ body {
   .posts {
     grid-column: 1 / -1;
   }
+  .post-btn {
+    left: 75%;
+    font-size: 1.8rem;
+    width: 11rem;
+    padding: 1.2rem 0.8rem;
+  }
 }
 
 @media (max-width: 600px) {
