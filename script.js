@@ -7,7 +7,7 @@ const goToLoginPage = () => {
   loginPage.style.display = 'grid'
 }
 
-middleContent.addEventListener('Click', e => {
+middleContent.addEventListener('click', e => {
   if (e.target.classList[1] === 'main-btn') {
     goToLoginPage()
   }
