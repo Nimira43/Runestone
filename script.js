@@ -3,7 +3,7 @@ const loginPage = document.querySelector('.login-page')
 const middleContent = document.querySelector('.middle-content')
 
 const btnTop = document.querySelector('.btn-top')
-const newFeedPage = document.querySelector('.feeds-page')
+const newsFeedPage = document.querySelector('.feeds-page')
 const loginModal = document.querySelector('.login-modal')
 const modalX = document.querySelector('.login-modal i')
 const loginFormBtn = document.querySelector('.login-form-btn')
@@ -35,4 +35,13 @@ middleContent.addEventListener('click', e => {
 btnTop.addEventListener('click', () => {
   const inputUserInfo = document.querySelector('.user-info')
   const inputPassword = document.querySelector('.password')
+
+  if (inputUserInfo.value !== '' && inputPassword.value !== '') {
+    mainPage.style.display = 'none'
+    newsFeedPage.style.display = 'block'
+  } else {
+    goToLoginPage()
+    loginModal.style.display = 'block'
+  } 
 })
+
