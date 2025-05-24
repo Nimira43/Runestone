@@ -404,6 +404,21 @@ body {
   /* display: none; */
 }
 
+.login-modal i {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.3rem;
+  color: var(--grey-dark);
+  cursor: pointer;
+}
+
+.login-modal p {
+  margin: 2rem;
+  font-size: 1.6rem;
+  color: var(--grey-dark);
+}
+
 .feeds-page {
   width: 100%;
   height: 100vh;
