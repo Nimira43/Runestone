@@ -822,6 +822,9 @@ body {
   .login {
     width: 80rem
   }
+  .login-modal {
+    width: 60rem;
+  }
   .feeds-content {
     grid-template-columns: minmax(5rem, 1fr) 2fr minmax(5rem, 1fr)
   }
@@ -842,6 +845,9 @@ body {
   }
   .login {
     width: 60rem;
+  }
+  .login.modal {
+    width: 50rem;
   }
 }
 
@@ -869,6 +875,9 @@ body {
   }
   .login {
     width: 50rem;
+  }
+  .login.modal {
+    width: 40rem;
   }
   .feeds-content {
     grid-template-columns: 1fr;
@@ -917,6 +926,16 @@ body {
   .login-footer p {
     font-size: 1.4rem;
   } 
+  .login.modal {
+    width: 30rem;
+  }
+  .login.modal i {
+    top: 2.5rem
+  }
+  .login.modal p {
+    margin: 1rem;
+    font-size: 1.4rem;
+  }
   .user a,
   .user i {
     display: none;
@@ -985,6 +1004,9 @@ body {
   }
   .login {
     width: 100%;
+  }
+  .login.modal {
+    width: 25rem;
   }
   .icons i {
     font-size: 2rem;
