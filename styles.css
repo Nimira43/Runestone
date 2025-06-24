@@ -769,6 +769,32 @@ body {
   border-color: var(--dark);
 }
 
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+}
+
+.modal {
+  width: 60rem;
+  background-color: var(--light);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.5rem;
+  /* display: none; */
+}
+
+.modal-header i {
+  font-size: 2.3rem;
+  color: var(--dark);
+  cursor: pointer;
+}
+
 @media (max-width: 1600px) {
   .follow {
     left: 58.5%;
