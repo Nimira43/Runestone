@@ -125,6 +125,7 @@ body {
 }
 
 .middle-content {
+  background-color: purple;
   position: absolute;
   top: 50%;
   left: 50%;
